@@ -126,7 +126,12 @@ img {
     font-family: 'Gotham', sans-serif;
 }
 .emag-column {
-    display: flex;
+    display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
     justify-content: space-between;
 }
 .emag-column img {
